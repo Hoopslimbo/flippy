@@ -3,7 +3,7 @@
    Blip), so the paths below are relative to this file. APP_URL is the app
    root (the scope's parent). Bump VERSION when the shell changes so old
    caches are replaced. */
-const VERSION = "2";
+const VERSION = "3";
 const CACHE = "flippy-v" + VERSION;
 const APP_URL = self.registration.scope.replace(/assets\/?$/, "");
 const CORE = [
